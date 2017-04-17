@@ -1,3 +1,77 @@
+html {
+	background-image: url('https://previews.123rf.com/images/anterovium/anterovium1103/anterovium110300009/9016063-Wrinkled-silver-foil-pattern-reflective-texture-background-Stock-Photo.jpg');
+}
+
+body {
+	font-family: sans-serif;
+	max-width: 75%;
+	margin: 0 auto;
+	background-color: silver;
+}
+
+a {
+	text-decoration: none;
+	color: powderblue;
+}
+
+a:hover {
+	color: black;
+}
+
+a:visited {
+	color: orange;
+}
+
+p {
+	padding: 25px;
+}
+
+#triangle {
+	max-width: 20%;
+	height: auto;
+	border-radius: 8px;
+	display: block;
+	margin: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 h1 {
-  background-color: red;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 48px;
+  padding: 25px;
+  color: powderblue;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+
+h2 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 36px;
+  padding: 25px;
+  color: powderblue;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+
+h3 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 24px;
+  padding: 25px;
+  color: powderblue;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  border: 1px;
+}
+
+.tips {
+	list-style-type: square;
+}
+
+@media screen and (max-width: 699px) and (min-width: 520px) {
+    body {
+        background-color: darkgray;
+    }
 }
